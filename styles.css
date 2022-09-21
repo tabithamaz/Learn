@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+  }
+  
+  header{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 90%;
+  }
+  input[type=checkbox]{
+    display: none;
+  }
+  .hamburger{
+  display: none;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+  }
+  li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+  }
+  .button__contact{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .premiere__section {
+   background-image: url("images/desktop/image-header.jpg");
+    height:800px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    width:100%;
+    z-index: 0;
+  } 
+  .fleche{
+    height:130px;
+    width:40px;
+  }
+  h1{
+    color: white;
+    font-size: 72px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+  .deuxieme__section {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+  }
+  
+  .tab1, .tab2 {
+    width: 50%;
+    height: 600px;
+  }
+  .tab2 {
+    background-image: url("images/desktop/image-transform.jpg")
+  }
+  .tab1{
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    
+  }
+  h2{
+    font-size:50px;
+  }
+  p{
+    font-size:25px
+  }
+  a{
+    font-size:15px;
+    color: black;
+  }
+  .content {
+    padding: 0 50px;
+  }
+  .troisieme__section{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+  }
+  .tab3, .tab4 {
+    width: 50%;
+    height: 600px;
+  }
+  .tab3{
+    background-image: url("images/desktop/image-stand-out.jpg")
+  }
+  .tab4{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction:column;
+    text-align: left;
+    
+  }
+  h2{
+    font-size: 50px;
+  }
+  p{
+    font-size: 25px;
+  }
+  a{
+    font-size:15px;
+    color: black;
+  }
+  .quatrieme__section{
+    display: flex;
+    flex-direction:row;
+    width: 100%; 
+  }
+  .tab5, .tab6{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    padding:0 15px 10% 15px;
+  }
+  .tab5 p, .tab6 p {
+    text-align: center;
+  }
+  .tab5{
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+  }
+  .tab5 h3, .tab6 h3{
+    font-size:35px;
+    margin-bottom:20px;
+  }
+  .tab6{
+    background-image: url("images/desktop/image-photography.jpg");
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+  }
+  .cinquieme__section{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    height: auto;
+    padding: 5%;
+    background-color:#FFFBF8;
+  }
+  .temoignage__content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  .temoigne__tab{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .image__conteneur {
+    width: 80px;
+    height: 80px;
+  }
+  .image__conteneur img{
+    border-radius: 70px;
+    width: 100%;
+    height: 100%;
+  }
+  .h4{
+    margin: 25px;
+   
+  } 
+  .temoigne__tab p {
+      margin: 20px 0px;
+    font-size:16px;
+    text-align: center;
+    color:#82808D;
+    } 
+  h5{
+    color: #645C5C;
+  }
+  .sixieme__section{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 350px;
+  }
+   .tab7, .tab8, .tab9, .tab10 {
+     width: 25%;
+     height: 350px;
+      
+   }
+  .tab7{
+  background-image: url("images/desktop/image-gallery-milkbottles.jpg") ;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position:center;
+   
+  }
+  .tab8{
+   background-image: url("images/desktop/image-gallery-orange.jpg")  ;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+  .tab9{
+   background-image: url("images/desktop/image-gallery-cone.jpg")  ;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+  .tab10{
+   background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+  
+  footer{
+      background-color:#90D4C5;
+      color:#327B6A;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+  .icones__reseaux__sociaux img{
+    margin-right:10px;
+    margin-left: 10px
+  }
+  @media screen and (max-width: 768px){
+  
+  .premiere__section {
+   background-image: url("images/mobile/image-header.jpg");
+   height: 700px;
+  } 
+
+  .menu{
+    display: none;
+    position: absolute;
+    background-color: white;  
+    text-align: center;
+    padding: 18px 0;
+    height: 500px;
+    width: 750px;
+    margin: 25px;
+
+
+  }
+  input[type=checkbox]:checked~.menu{
+    display: block;
+  }
+  .hamburger{
+  display: block;
+  text-align: right;
+  color: white; 
+  font-size: 24px;
+  
+  }
+  .fleche{
+    height:130px;
+    width:40px;
+    margin-top: 70px;
+  }
+  h1{
+    color: white;
+    font-size: 80px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+    .deuxieme__section {
+    flex-direction:column-reverse;
+  }
+  
+  .tab1, .tab2 {
+    width: 100%;
+    height: 600px;
+  }
+   .troisieme__section{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+  }
+  .tab3, .tab4 {
+    width: 100%;
+  }
+  .quatrieme__section{
+    flex-direction:column;
+  }
+    .tab5, .tab6{
+    width: 100%;
+  }
+    .temoignage__content {
+      flex-direction: column;
+    }
+  
+    .sixieme__section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  .tab7, .tab8, .tab9, .tab10 {
+     width: 50%;
+     
+      
+   }
+  }
+  
